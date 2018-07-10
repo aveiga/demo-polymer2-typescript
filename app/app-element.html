@@ -1,0 +1,18 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="../my-element/my-element.html">
+<link rel="import" href="../other-element/other-element.html">
+
+<dom-module id="app-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+    <my-element prop1="element 1"></my-element>
+    <other-element prop1="element 2"></other-element>
+  </template>
+
+  <script src="./app-element.js"></script>
+</dom-module>
