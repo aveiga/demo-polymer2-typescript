@@ -60,3 +60,8 @@ window.customElements.define(MyElement.is, MyElement);
 * on the root of your web component, run: `tsc`
 * on the root of your web component, run: `polymer serve`
 * check your web component on the browser
+
+### To Do
+Create CLI with the following functions:
+* [init]: creates a Polymer 2 Element and changes it to use TypeScript
+* [serve]: runs `polymer serve` and a `tsc` watcher at the same time
